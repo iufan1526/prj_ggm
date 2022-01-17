@@ -14,95 +14,120 @@ th, td {
 	padding: 10px;
 }
 </style>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
 </head>
 
 <body>
+	<nav aria-label="breadcrumb">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="../../index.html">index</a></li>
+			<li class="breadcrumb-item"><a href="./memberList.html">memberList</a></li>
+			<li class="breadcrumb-item active" aria-current="page">memberView</li>
+		</ol>
+	</nav>
 
-	<table class="table table-striped" border="1">
+	<table class="table" border="1">
 		<thead>
 			<tr>
-				<td colspan="4"><img src="./sourse4.jpg" class="rounded mx-auto d-block" alt="..." width="300px"></td>
+				<td colspan="4"><img src="./sourse4.jpg"
+					class="rounded mx-auto d-block" alt="..." width="300px"></td>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>이름</td>
+				<td class="table-active">이름</td>
 				<td>김승태</td>
-				<td>성별</td>
+				<td class="table-active">성별</td>
 				<td>남자</td>
 			</tr>
 			<tr>
-				<td>아이디</td>
+				<td class="table-active">아이디</td>
 				<td>iufan1526</td>
-				<td>비밀번호</td>
+				<td class="table-active">비밀번호</td>
 				<td>123456789</td>
 			</tr>
 			<tr>
-				<td>생일</td>
+				<td class="table-active">생일</td>
 				<td colspan="3">1997.11.19</td>
 			</tr>
 			<tr>
-				<td>국적</td>
+				<td class="table-active">국적</td>
 				<td>대한민국</td>
-				<td>주소</td>
+				<td class="table-active">주소</td>
 				<td>경기도 화성시</td>
 			</tr>
 			<tr>
-				<td>모바일</td>
+				<td class="table-active">모바일</td>
 				<td>010-1234-4567</td>
-				<td>모바일마케팅수신동의</td>
+				<td class="table-active">모바일마케팅수신동의</td>
 				<td>O</td>
 			</tr>
 			<tr>
-				<td>전화번호</td>
+				<td class="table-active">전화번호</td>
 				<td>031-353-1234</td>
-				<td>팩스번호</td>
+				<td class="table-active">팩스번호</td>
 				<td>123456-789789</td>
 			</tr>
 			<tr>
-				<td>이메일</td>
+				<td class="table-active">이메일</td>
 				<td>iufan1526@naver.com</td>
-				<td>이메일 마케팅동의</td>
-				<td>O</td>
+				<td class="table-active">이메일 마케팅동의</td>
+				<td><div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" role="switch"
+							id="flexSwitchCheckDefault" checked="checked" disabled="disabled">
+						<label class="form-check-label" for="flexSwitchCheckDefault"></label>
+					</div></td>
 			</tr>
 			<tr>
-				<td>추천인</td>
+				<td class="table-active">추천인</td>
 				<td>QSSQDQQWD</td>
-				<td>SNS</td>
+				<td class="table-active">SNS</td>
 				<td>FaceBook</td>
 			</tr>
 			<tr>
-				<td>비밀번호문제</td>
+				<td class="table-active">비밀번호문제</td>
 				<td>초등학교이름은?</td>
-				<td>비밀번호답</td>
+				<td class="table-active">비밀번호답</td>
 				<td>기안초등학교</td>
 			</tr>
 			<tr>
-				<td>홈페이지</td>
+				<td class="table-active">홈페이지</td>
 				<td>www.naver.com</td>
-				<td>직업(희망)</td>
+				<td class="table-active">직업(희망)</td>
 				<td>국방부장관</td>
 			</tr>
 			<tr>
-				<td>취미(다중선택)</td>
+				<td class="table-active">취미(다중선택)</td>
 				<td colspan="3">축구보기,음악듣기,당구</td>
 			</tr>
 			<tr>
-				<td>결혼여부</td>
-				<td>O</td>
-				<td>결혼기념일</td>
+				<td class="table-active">결혼여부</td>
+				<td><div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" role="switch"
+							id="flexSwitchCheckDefault" checked="checked" disabled="disabled">
+						<label class="form-check-label" for="flexSwitchCheckDefault"></label>
+					</div></td>
+				<td class="table-active">결혼기념일</td>
 				<td>12.12</td>
 			</tr>
 			<tr>
-				<td>자녀여부</td>
-				<td>O</td>
-				<td>좋아하는색깔</td>
+				<td class="table-active">자녀여부</td>
+				<td><div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" role="switch"
+							id="flexSwitchCheckDefault" checked="checked" disabled="disabled">
+						<label class="form-check-label" for="flexSwitchCheckDefault"></label>
+					</div></td>
+				<td class="table-active">좋아하는색깔</td>
 				<td><input type="color" id="" name="" value="#000000" readonly></td>
 			</tr>
 			<tr>
-				<td rowspan="4">본인소개</td>
-				<td colspan="3" rowspan="4">안녕하세요.경기도사는 청년입니다. sadsada</td>
+				<td class="table-active" rowspan="4">본인소개</td>
+				<td colspan="3" rowspan="4"><textarea id="" name="" rows="5"
+						cols="50" disabled="disabled">안녕하세요 경기도 사는 김승태입니다.감사합니다</textarea></td>
 			</tr>
 			<tr>
 			</tr>
@@ -111,33 +136,65 @@ th, td {
 			<tr>
 			</tr>
 			<tr>
-				<td>개인정보유효기간</td>
+				<td class="table-active">개인정보유효기간</td>
 				<td colspan="3">10년</td>
 			</tr>
 		</tbody>
 	</table>
 
-	
+
 	<table class="table table-striped" border="1">
-			<tr>
-				<td>프로젝트명</td>
-				<td>역활</td>
-				<td>참여기간</td>
-				<td>발주사</td>
-			</tr>		
-			<tr>
-				<td>안드로이드 웹개발 프로젝트</td>
-				<td>개발자</td>
-				<td><input type="month" id="" name=""value="2021-01">~<input type="month" id="" name="" value="2022-01"></td>
-				<td>국민은행</td>
-			</tr>		
-		
-		
-		
-		</table>
-		<button type="button" class="btn btn-outline-primary"><a href="./memberList.html">목록</a></button>
-		<button type="button" class="btn btn-outline-primary"><a href="./memberEdit.html">수정</a></button>
-		<button type="button" class="btn btn-outline-primary"><a href="./memberList.html">삭제</a></button>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<tr>
+			<td>프로젝트명</td>
+			<td>역활</td>
+			<td>참여기간</td>
+			<td>발주사</td>
+		</tr>
+		<tr>
+			<td>안드로이드 웹개발 프로젝트</td>
+			<td>개발자</td>
+			<td><input type="month" id="" name="" value="2021-01">~<input
+				type="month" id="" name="" value="2022-01"></td>
+			<td>국민은행</td>
+		</tr>
+
+
+
+	</table>
+	<button type="button" class="btn btn-outline-primary">
+		<a href="./memberList.html">목록</a>
+	</button>
+	<button type="button" class="btn btn-outline-success">
+		<a href="./memberEdit.html">수정</a>
+	</button>
+	<button type="button" class="btn btn-outline-danger"
+		data-bs-toggle="modal" data-bs-target="#exampleModal" id="exampleModalLabel" >
+		<a href="./memberList.html">삭제</a>
+	</button>
+	
+	
+	<div class="modal fade" id="exampleModal" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">삭제</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">정말 삭제하시겠습니까?</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-bs-dismiss="modal">취소</button>
+					<button type="button" class="btn btn-primary">삭제</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
 </body>
 </html>
