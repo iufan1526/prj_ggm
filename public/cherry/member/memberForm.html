@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title></title>
 <style type="text/css">
-table, th, td {
-	border: 1px sold black;
-	border-collapse: collapse;
+	table, th, td {
+		border: 1px sold black;
+		border-collapse: collapse;
 }
 
-th, td {
-	padding: 10px;
+	th, td {
+		padding: 10px;
 }
 </style>
 <link
@@ -30,26 +30,34 @@ th, td {
 			<li class="breadcrumb-item active" aria-current="page">memberForm</li>
 		</ol>
 	</nav>
+	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+ 		 <div class="toast-header">
+		    <img src="..." class="rounded me-2" alt="...">
+		    <strong class="me-auto">Bootstrap</strong>
+		    <small>11 mins ago</small>
+		    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+		<div class="toast-body">
+  		  Hello, world! This is a toast message.
+  		</div>
+	</div>
 
 	<form action="" method="post" id="" name=""
 		enctype="multipart/form-data">
-
+s
 		<table class="table" border="1">
 			<tr>
-				<td colspan="4"><img src="./sourse4.jpg" width="200px"
-					height="200px">
+				<td colspan="4"><img src="./sourse4.jpg" width="200px"height="200px">
 					<div class="mb-3">
-						<label for="formFileSm" class="form-label"> </label> <input
-							class="form-control form-control-sm" id="formFileSm" type="file">
-					</div> <!-- <input type="file" id="" name=""
-					accept=".png,.jpg"> --></td>
+						<label for="formFileSm" class="form-label"> </label> <input class="form-control form-control-sm" id="formFileSm" type="file">
+					</div> 
+				</td>
 			</tr>
 			<tr>
 				<td class="table-active">이름</td>
 				<td><input type="text" id="" name="" value="" readonly></td>
 				<td class="table-active">성별</td>
-				<td>남자<input type="radio" id="" name="gander" value="man">여자<input
-					type="radio" id="" name="gander" value="man"></td>
+				<td>남자<input type="radio" id="" name="gander" value="man">여자<input type="radio" id="" name="gander" value="man"></td>
 			</tr>
 			<tr>
 				<td class="table-active">아이디</td>
@@ -62,7 +70,6 @@ th, td {
 				<td><input type="date" id="" name=""></td>
 				<td class="table-active">직업(희망):</td>
 				<td><input type="text" id="" name=""></td>
-
 			</tr>
 			<tr>
 				<td class="table-active">국적선택:</td>
@@ -71,27 +78,33 @@ th, td {
 						<option>일본</option>
 						<option>중국</option>
 						<option>미국</option>
-				</select></td>
+					</select>
+				</td>
 				<th class="table-active">주소</th>
-				<td colspan="2"><input type="text" id="" name="" size="50px"></td>
+				<td colspan="2"><input type="text" id="" name="" size="30px"><button type="button" class="btn btn-primary btn-sm">주소검색</button></td>
 			</tr>
 			<tr>
 				<td class="table-active">핸드폰번호</td>
-				<td><input type="text" id="" name="" size="10px">-<input
-					type="text" id="" name="" size="10px">-<input type="text"
-					id="" name="" size="10px"></td>
+				<td><select>
+					<option>SKT</option>
+					<option>KT</option>
+					<option>LGU+</option>
+					<option>자급제</option>
+			 	   </select>
+				   <input type="text" id="" name="" size="10px">-<input type="text" id="" name="" size="10px">-<input type="text"id="" name="" size="10px">
+					<button type="button" class="btn btn-primary btn-sm">본인인증</button>
+				</td>
 				<td class="table-active">전화번호</td>
-				<td><input type="text" id="" name="" size="10px">-<input
-					type="text" id="" name="" size="10px">-<input type="text"
-					id="" name="" size="10px"></td>
+				<td><input type="text" id="" name="" size="10px">-<inpu type="text" id="" name="" size="10px">-<input type="text" id="" name="" size="10px">
+				</td>
 			</tr>
 			<tr>
 				<td class="table-active">모바일마케팅동의</td>
 				<td><div class="form-check form-switch">
 						<input class="form-check-input" type="checkbox" role="switch"
-							id="flexSwitchCheckDefault"> <label
-							class="form-check-label" for="flexSwitchCheckDefault"></label>
-					</div></td>
+							id="flexSwitchCheckDefault"> <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+					</div>
+				</td>
 				<!-- <td>동의<input type="radio" id="" name="mobil" value="1">미동의<input
 					type="radio" id="" name="mobil" value="0"></td>
 				 -->
@@ -154,26 +167,24 @@ th, td {
 			</tr>
 			<tr>
 				<td class="table-active">자기소개</td>
-				<td colspan="3"><div class="form-floating">
-						<textarea class="form-control" placeholder="Leave a comment here"
-							id="floatingTextarea2" style="height: 100px"></textarea>
+				<td colspan="3">
+					<div class="form-floating">
+						<textarea class="form-control" placeholder="Leave a comment here"id="floatingTextarea2" style="height: 100px"></textarea>
 						<label for="floatingTextarea2">자기소개를 입력해주세요.</label>
-					</div></td>
+					</div>
+				</td>
 			</tr>
-			<!-- 				<td colspan="3"><textarea rows="5" cols="50"
-						placeholder="여기에 내용일 넣어주세"></textarea></td>
-			</tr> -->
-
 			<tr>
 				<td class="table-active">개인정보유효기간</td>
-				<td colspan="3"><select id="" name="">
+				<td colspan="3">
+					<select id="" name="">
 						<option>1년</option>
 						<option>3년</option>
 						<option>5년</option>
-						<option>10년</option>
-				</select></td>
+						<option>10년 </option>
+					</select>
+				</td>
 			</tr>
-
 		</table>
 		<br>
 
@@ -182,8 +193,7 @@ th, td {
 				<td class="table-active">프로젝트명</td>
 				<td><input type="text" id="" name="" size="60px"></td>
 				<td class="table-active">참여기간</td>
-				<td><input type="month" id="" name="">~<input
-					type="month" id="" name=""></td>
+				<td><input type="month" id="" name="">~<input type="month" id="" name=""></td>
 			</tr>
 			<tr>
 				<td class="table-active">역활</td>
@@ -195,8 +205,7 @@ th, td {
 				<td class="table-active">프로젝트명</td>
 				<td><input type="text" id="" name="" size="60px"></td>
 				<td class="table-active">참여기간</td>
-				<td><input type="month" id="" name="">~<input
-					type="month" id="" name=""></td>
+				<td><input type="month" id="" name="">~<input type="month" id="" name=""></td>
 			</tr>
 			<tr>
 				<td class="table-active">역활</td>
@@ -204,16 +213,10 @@ th, td {
 				<td class="table-active">발주사</td>
 				<td><input type="text" id="" name="" size="30px"></td>
 			</tr>
-
-
-
 		</table>
-		<button type="button" class="btn btn-outline-primary">
-			<a href="./memberList.html">등록</a>
-		</button>
-		<button type="button" class="btn btn-outline-danger">
-			<a href="./memberList.html">취소</a>
-		</button>
+		
+		<button type="button" class="btn btn-outline-primary"><a href="./memberList.html">등록</a></button>
+		<button type="button" class="btn btn-outline-danger"><a href="./memberList.html">취소</a></button>
 	</form>
 
 </body>
