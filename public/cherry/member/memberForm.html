@@ -8,6 +8,8 @@
 	table, th, td {
 		border: 1px sold black;
 		border-collapse: collapse;
+		table-layout: fixed;
+		width:100%;
 }
 
 	th, td {
@@ -25,9 +27,9 @@
 
 	<nav aria-label="breadcrumb">
 		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="../../index.html">index</a></li>
-			<li class="breadcrumb-item"><a href="./memberList.html">memberList</a></li>
-			<li class="breadcrumb-item active" aria-current="page">memberForm</li>
+			<li class="breadcrumb-item"><a href="../../index.html">Index</a></li>
+			<li class="breadcrumb-item"><a href="./memberList.html">MemberList</a></li>
+			<li class="breadcrumb-item active" aria-current="page">MemberForm</li>
 		</ol>
 	</nav>
 	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -44,7 +46,7 @@
 
 	<form action="" method="post" id="" name=""
 		enctype="multipart/form-data">
-s
+
 		<table class="table" border="1">
 			<tr>
 				<td colspan="4"><img src="./sourse4.jpg" width="200px"height="200px">
@@ -55,7 +57,7 @@ s
 			</tr>
 			<tr>
 				<td class="table-active">이름</td>
-				<td><input type="text" id="" name="" value="" readonly></td>
+				<td width="1000"><input type="text" id="" name="" value="" readonly></td>
 				<td class="table-active">성별</td>
 				<td>남자<input type="radio" id="" name="gander" value="man">여자<input type="radio" id="" name="gander" value="man"></td>
 			</tr>
@@ -191,7 +193,7 @@ s
 		<table class="table " border="1">
 			<tr>
 				<td class="table-active">프로젝트명</td>
-				<td><input type="text" id="" name="" size="60px"></td>
+				<td><input type="text" id="" name="" size="30px"></td>
 				<td class="table-active">참여기간</td>
 				<td><input type="month" id="" name="">~<input type="month" id="" name=""></td>
 			</tr>
@@ -203,7 +205,7 @@ s
 			</tr>
 			<tr>
 				<td class="table-active">프로젝트명</td>
-				<td><input type="text" id="" name="" size="60px"></td>
+				<td><input type="text" id="" name="" size="30px"></td>
 				<td class="table-active">참여기간</td>
 				<td><input type="month" id="" name="">~<input type="month" id="" name=""></td>
 			</tr>
